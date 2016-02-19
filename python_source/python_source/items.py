@@ -14,3 +14,4 @@ class PythonSourceItem(scrapy.Item):
     title = scrapy.Field()
     link = scrapy.Field()
     desc = scrapy.Field()
+    print "title, link, desc", title, link, desc
